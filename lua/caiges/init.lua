@@ -7,25 +7,4 @@ vim.g.loaded_netrwPlugin = 1
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
--- empty setup using defaults
---require("nvim-tree").setup()
-
--- OR setup with some options
-require("nvim-tree").setup({
-  sort = {
-    sorter = "case_sensitive",
-  },
-  view = {
-    width = 30,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})
-
--- Open nvim-tree
-api.nvim_set_keymap("n", "<C-n>", ":NvimTreeToggle<CR>", {noremap = true})
-
+require('caiges.plugins.nvim-tree')
