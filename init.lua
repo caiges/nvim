@@ -17,6 +17,8 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = require('caiges.plugins')
 
 require('lazy').setup(plugins)
+require('caiges')
+
 
 vim.cmd.syntax("on")
 vim.opt.termguicolors = true
@@ -44,10 +46,8 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- empty setup using defaults
-require("nvim-tree").setup()
+-- require("nvim-tree").setup()
 
--- Open nvim-tree
-api.nvim_set_keymap("n", "<C-n>", ":NvimTreeToggle<CR>", {noremap = true})
 
 -- Mason
 -- require("mason").setup()
