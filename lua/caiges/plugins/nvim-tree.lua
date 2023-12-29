@@ -1,5 +1,3 @@
-local api = vim.api
-
 require("nvim-tree").setup({
   sort = {
     sorter = "case_sensitive",
@@ -16,5 +14,5 @@ require("nvim-tree").setup({
 })
 
 -- Open nvim-tree
-api.nvim_set_keymap("n", "<C-n>", ":NvimTreeToggle<CR>", {noremap = true})
+vim.api.nvim_set_keymap("n", "<C-n>", ":NvimTreeToggle<CR>", {noremap = true})
 

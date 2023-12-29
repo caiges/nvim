@@ -8,3 +8,5 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 require('caiges.plugins.nvim-tree')
+require('caiges.plugins.cmp')
+require('caiges.lsp')
