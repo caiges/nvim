@@ -9,4 +9,5 @@ vim.opt.termguicolors = true
 
 require('caiges.plugins.nvim-tree')
 require('caiges.plugins.cmp')
+require('caiges.plugins.conform')
 require('caiges.lsp')

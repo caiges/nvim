@@ -20,7 +20,8 @@ local plugins = {
   "simrat39/rust-tools.nvim",
   "nvim-lua/popup.nvim",
   "nvim-lua/plenary.nvim",
-  "nvim-telescope/telescope.nvim"
+  "nvim-telescope/telescope.nvim",
+  "stevearc/conform.nvim"
 }
 
 return plugins
