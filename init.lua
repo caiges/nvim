@@ -40,7 +40,7 @@ vim.opt.number = true
 vim.opt.signcolumn = "yes"
 
 -- Open ctrl-p
-api.nvim_set_keymap("n", "<C-p>", ":Files<CR>", {noremap = true})
+--api.nvim_set_keymap("n", "<C-p>", ":Files<CR>", {noremap = true})
 
 -- Choosewin settings
 api.nvim_set_keymap("n", "-", "<Plug>(choosewin)", {noremap = true})

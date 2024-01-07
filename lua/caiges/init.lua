@@ -7,7 +7,9 @@ vim.g.loaded_netrwPlugin = 1
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
-require('caiges.plugins.nvim-tree')
+require('caiges.keybindings')
 require('caiges.plugins.cmp')
 require('caiges.plugins.conform')
+require('caiges.plugins.neotree')
+require('caiges.plugins.telescope')
 require('caiges.lsp')
