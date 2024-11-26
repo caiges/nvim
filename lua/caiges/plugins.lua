@@ -15,7 +15,6 @@ local plugins = {
   "hrsh7th/nvim-cmp",
   "hrsh7th/cmp-vsnip",
   "hrsh7th/vim-vsnip",
-  "simrat39/rust-tools.nvim",
   "nvim-lua/popup.nvim",
   { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
   { 'nvim-telescope/telescope.nvim', tag = '0.1.5', dependencies = { 'nvim-lua/plenary.nvim' } },
@@ -31,6 +30,11 @@ local plugins = {
       "MunifTanjim/nui.nvim",
       -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     }
+  },
+  {
+    'mrcjkb/rustaceanvim',
+    version = '^5', -- Recommended
+    lazy = false, -- This plugin is already lazy
   },
 }
 
